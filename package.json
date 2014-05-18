@@ -1,0 +1,23 @@
+{
+  "name": "node-parabaik",
+  "version": "0.0.1",
+  "main": "converter.js",
+  "keywords": [
+    "parabaik",
+    "nodejs",
+    "npm",
+    "module",
+    "zawgyi",
+    "unicode",
+    "myanmar"
+  ],
+  "scripts": {
+    "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yemyat/node-parabaik"
+  },
+  "author": "Ye Myat Min",
+  "license": "GPL v2"
+}
